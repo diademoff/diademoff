@@ -1,0 +1,168 @@
+@font-face {
+    font-family: 'Comfortaa';
+    src: url('../ttf/Comfortaa.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Roboto-Regular';
+    src: url('../ttf/Roboto-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'ProximaNova';
+    src: url('../ttf/ProximaNova-Semibold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Monofur';
+    src: url('../ttf/monofur.ttf') format('truetype');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto-Regular';
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    margin: 0 20vw;
+    height: 100vh;
+}
+
+#title {
+    /* margin top */
+    margin: 15% auto 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+
+#title h1 {
+    font-family: 'Comfortaa', 'sans-serif';
+    margin: 0 auto;
+    font-size: 5em;
+    text-transform: uppercase;
+}
+
+#title .subtitle {
+    color: gray;
+    font-family: 'Monofur';
+}
+
+#about {
+    margin: 10% 0;
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#skills {
+    position: relative;
+    left: 0px;
+    border-width: 1px;
+    border-color: black;
+}
+
+#about span {
+    font-size: 2.5em;
+}
+
+#about ul {
+    list-style-type: none;
+}
+
+#about li {
+    font-size: 1em;
+    margin: 5px 0;
+}
+
+#about li p {
+    font-family: 'ProximaNova';
+}
+
+#about>div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#projects li {
+    /* border: 1px solid black; */
+    margin: 15px 0;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+#projects li {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.name {
+    display: flex;
+    flex-direction: row;
+}
+
+.name svg {
+    margin-right: 7px;
+    margin-top: 3px
+}
+
+.links {
+    display: flex;
+    justify-content: space-around;
+}
+
+.links a {
+    text-decoration: none;
+    margin: 3px 10px;
+    font-weight: bold;
+    color: #0366d6;
+}
+
+.links a:after {
+    display: block;
+    width: 0;
+    height: 1px;
+    background-color: #217ee7;
+    content: "";
+    transition: width 0.2s ease-out;
+}
+
+.links a:hover:after,
+.links a:focus:after {
+    width: 100%;
+}
+
+@media screen and (max-width: 800px) {
+    #container {
+        margin: 0 15vw;
+    }
+
+    #title h1 {
+        font-size: 2em;
+    }
+
+    #title span {
+        font-size: .7em;
+    }
+
+    #about {
+        flex-direction: column;
+    }
+
+    #about>div {
+        margin-bottom: 30px;
+    }
+
+    #about span {
+        font-size: 2em;
+    }
+}

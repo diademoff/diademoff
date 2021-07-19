@@ -1,0 +1,19 @@
+#title {
+    opacity: 0;
+    transition-duration: 1s;
+}
+
+#skills {
+    opacity: 0;
+    transition-duration: 3s;
+}
+
+#projects {
+    opacity: 0;
+    transition-duration: 5s;
+}
+
+#title .subtitle {
+    opacity: 0;
+    transition-duration: 8s;
+}

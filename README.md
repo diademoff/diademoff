@@ -1,16 +1,11 @@
-### Hi there 👋
+```
+ _  _  _       _                                                                         ___ _ _
+| || || |     | |                          _                                            / __|_) |
+| || || | ____| | ____ ___  ____   ____   | |_  ___     ____  _   _    ____   ____ ___ | |__ _| | ____
+| ||_|| |/ _  ) |/ ___) _ \|    \ / _  )  |  _)/ _ \   |    \| | | |  |  _ \ / ___) _ \|  __) | |/ _  )
+| |___| ( (/ /| ( (__| |_| | | | ( (/ /   | |_| |_| |  | | | | |_| |  | | | | |  | |_| | |  | | ( (/ /
+ \______|\____)_|\____)___/|_|_|_|\____)   \___)___/   |_|_|_|\__  |  | ||_/|_|   \___/|_|  |_|_|\____)
+                                                             (____/   |_|
+```
 
-<!--
-**diademoff/diademoff** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+<a href="https://diademoff.github.io/diademoff/" target="_blank">View projects</a>
