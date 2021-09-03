@@ -8,4 +8,4 @@
                                                              (____/   |_|
 ```
 
-<a href="https://diademoff.github.io/diademoff/" target="_blank">View projects</a>
+<a href="https://diademoff.github.io/diademoff/" target="_blank">View projects</a> | <a href="https://gist.github.com/diademoff" target="_blank">View gists</a>
